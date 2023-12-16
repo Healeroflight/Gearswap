@@ -82,24 +82,24 @@ function init_gear_sets()
 
 	sets.precast.Step = {ammo="Falcon Eye",
 					head="Carmine Mask +1",neck="Mirage Stole +2",ear1="Regal Earring",ear2="Telos Earring",
-					body="Assim. Jubbah +3",hands="Assim. Bazu. +3",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
+					body="Pinga Tunic +1",hands="Assim. Bazu. +3",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
 					back=gear.da_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 
 	sets.precast.Flourish1 = {ammo="Falcon Eye",
 			       head="Malignance Chapeau",neck="Mirage Stole +2",ear1="Regal Earring",ear2="Digni. Earring",
-                   body="Malignance Tabard",hands="Malignance Gloves",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
+                   body="Malignance Tabard",hands="Pinga Mittens +1",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
 			       back="Cornflower Cape",waist="Olseni Belt",legs="Malignance Tights",feet="Malignance Boots"}
 
 	-- Fast cast sets for spells
 
 	sets.precast.FC = {main="Vampirism",sub="Sakpata's Sword",ammo="Impatiens",
 		head="Carmine Mask +1",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		body="Luhlaza Jubbah +3",hands="Leyline Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
-		back="Perimede Cape",waist="Witful Belt",legs="Psycloth Lappas",feet="Carmine Greaves +1"}
+		body="Pinga Tunic +1",hands="Pinga Mittens +1",ring1="Kishar Ring",ring2="Lebeche Ring",
+		back="Perimede Cape",waist="Witful Belt",legs="Pinga Pants +1",feet="Carmine Greaves +1"}
 
 	sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {body="Passion Jacket"})
 
-	sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Hashishin Mintan +1"})
+	sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Pinga Tunic +1"})
 
 
 	-- Weaponskill sets
